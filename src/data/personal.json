@@ -1,0 +1,12 @@
+{
+  "name": "Ronald Lim",
+  "title": "Software Engineer",
+  "experience": "3 Years",
+  "tagline": "Building robust software solutions with modern technologies.",
+  "bio": [
+    "Computer science graduate with 3 years of hands-on experience in software engineering. Passionate about crafting clean, maintainable code and building applications that make a difference.",
+    "Specializing in full-stack development with a focus on React ecosystems, RESTful APIs, and cloud-native deployments. Always exploring new technologies and best practices."
+  ],
+  "avatar": "/avatar.jpg",
+  "resumeUrl": "/resume.pdf"
+}

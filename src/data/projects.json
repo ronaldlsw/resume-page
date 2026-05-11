@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Salesforce for Miro",
+    "role": "Contributor",
+    "description": "A full-stack web application for connecting Salesforce with Miro's collaborative platform.",
+    "tech": [
+      "Next.js",
+      "SST"
+    ],
+    "url": "https://miro.com/marketplace/salesforce-for-miro/"
+  },
+  {
+    "id": 2,
+    "title": "SAGE",
+    "role": "Creator",
+    "description": "A final-year project featuring full-stack mobile application for managing academic content.",
+    "tech": [
+      "Flutter",
+      "Firebase"
+    ],
+    "url": "https://github.com/ronaldlsw/sage"
+  }
+]
