@@ -1,66 +1,72 @@
-.navbar-content nav {
-  background-color: rgb(71, 110, 226);
-}
-.navbar-content img {
-  height: 50px;
-  width: auto;
+@import "tailwindcss";
 
-  padding-right: 1em;
-}
-
-* {
-  font-family: "ZCOOL QingKe HuangYou", cursive;
-}
-
-.aboutImage img {
-  height: 500px;
-  width: auto;
+@theme {
+  --color-crt-green: #00ff41;
+  --color-crt-dim: #1a3a1a;
+  --color-crt-muted: #00cc33;
+  --color-crt-amber: #ffb000;
+  --color-crt-bg: #0a0a0a;
+  --color-crt-surface: #141414;
+  --color-crt-text: #e0e0e0;
+  --color-crt-dimtext: #888;
+  --font-mono: "Share Tech Mono", "JetBrains Mono", monospace;
+  --font-sans: "Inter", system-ui, sans-serif;
 }
 
-.aboutImage p {
-  color: rgb(82, 81, 81);
-  font-style: italic;
-  font-size: small;
-  text-align: left;
+body {
+  background-color: var(--color-crt-bg);
+  color: var(--color-crt-text);
+  font-family: var(--font-sans);
 }
 
-.aboutBody {
-  padding: 140px 0;
-}
-.aboutBody p {
-  font-size: 20px;
-}
-.aboutBody button {
-  padding-right: 3em;
-  margin-right: 1em;
-}
-.aboutBody a {
-  color: white;
-  text-decoration: none;
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
-.skillsetLogo img {
-  width: 130px;
-  height: auto;
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 4px #00ff41; }
+  50% { box-shadow: 0 0 12px #00ff41; }
 }
 
-.footer {
-  background-color: rgb(71, 110, 226);
-
-  position: sticky;
-
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 40px;
+.animate-blink {
+  animation: blink 1s step-end infinite;
 }
 
-.footerContent p {
-  text-align: center;
-  color: white;
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
 }
 
-.navbar-brand {
-  border: black;
-  border-radius: 1px;
+.scanline::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.03) 2px,
+    rgba(0, 255, 65, 0.03) 4px
+  );
+  pointer-events: none;
+}
+
+.scanline-intense::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 255, 65, 0.15) 2px,
+      rgba(0, 255, 65, 0.15) 4px
+    ),
+    radial-gradient(
+      ellipse at center,
+      transparent 60%,
+      rgba(0, 255, 65, 0.08) 100%
+    );
+  pointer-events: none;
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "period": "2025 - Present",
+    "title": "Software Engineer",
+    "company": "ServiceRocket",
+    "description": "Refactored legacy code.  Developed test suites & automation."
+  },
+  {
+    "period": "2023 - 2025",
+    "title": "Associate Software Engineer",
+    "company": "ServiceRocket",
+    "description": "Developed multiple Atlassian and Miro applications. Contributed to backend services and frontend features, improving user experience and system performance."
+  },
+  {
+    "period": "2023 - 2023",
+    "title": "Software Engineering Intern",
+    "company": "ServiceRocket",
+    "description": "Maintained existing Java enterprise systems. Gained hands-on experience with Agile methodologies, customer escalations, and production deployments."
+  },
+  {
+    "period": "2019 - 2023",
+    "title": "B.Sc. Computer Science (Software Engineering) with Honours",
+    "company": "Universiti Malaysia Pahang",
+    "description": "Specialized in Software Engineering. Dean's List recipient."
+  }
+]

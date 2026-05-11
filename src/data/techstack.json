@@ -1,0 +1,31 @@
+{
+  "Languages": [
+    "TypeScript",
+    "JavaScript",
+    "Java"
+  ],
+  "Frontend": [
+    "React",
+    "Next.js",
+    "Vite"
+  ],
+  "Backend": [
+    "Node.js",
+    "Axios",
+    "PostgreSQL"
+  ],
+  "Cloud": [
+    "AWS (EC2, S3, DynamoDB, Lambda, Cloudwatch, CloudFormation)"
+  ],
+  "Tools": [
+    "Docker",
+    "AWS",
+    "Git",
+    "Linux"
+  ],
+  "AI Tooling": [
+    "OpenCode",
+    "Github Copilot",
+    "Gemini"
+  ]
+}
